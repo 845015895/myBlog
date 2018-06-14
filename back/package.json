@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "async": "^2.6.1",
+    "express": "^4.16.2",
+    "marked": "^0.4.0",
+    "mysql": "^2.15.0"
+  }
+}
