@@ -10,7 +10,6 @@ router.post('/', function (req, res) {
     const POST = req.body;
     let username = POST.username;
     let password = POST.password;
-    console.log(username);
     connection(querySql, username, function (err, result) {
         try {
             if (result[0].password === password) {
